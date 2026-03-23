@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+nav{
+    background-color: #005582;
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 30px;
+    background-color: #005582;
+
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+#Home{
+     align-items: center;
+     margin-top: 100px;
+    text-align: center;
+    background-color: #0077b5;
+    padding: 50px;
+    
+
+}
+.img{
+    box-sizing: border-box;
+    border-radius: 100px;
+    box-shadow: white;
+
+}
+#aboutme{
+    background-color: #005582;
+
+    
+    
+}
+.text{
+    
+    padding: 200px;
+    text-align: center;
+}
+#Myproject{
+    background-color: #0077b5;
+    text-align: center;
+    align-items: center;
+}
+#contactme{
+    background-color: #005582;
+    font-family: Arial;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background: white;
+    padding:0px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+
+}
+.card h2{
+    margin-bottom: 10px;
+}
+.card p{
+    color: #555;
+    font-size: 15px;
+}
+.social{
+    margin: 20px 0;
+
+}
+.social a{
+    font-size: 25px;
+    margin: 0 10px;
+    color: #333;
+    transition: 0.3s;
+}
+.social a:hover{
+    transform: scale(1.1);
+    color: #0077b5;
+
+}
+.contact-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.contact-btn i{
+    margin-right: 5px;
+}
+.contact-btn:hover{
+    background: #005582;
+}
